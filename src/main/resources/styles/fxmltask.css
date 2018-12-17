@@ -1,0 +1,34 @@
+.lb-top-bar {
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+}
+
+.bt-back {
+    -fx-text-fill: #1e90ff;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+    -fx-cursor: hand;
+    -fx-background-color: #fff;
+}
+
+.btPlay {
+    -fx-font-size: 20pt;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+    -fx-cursor: hand;
+    -fx-background-color: #009900;
+}
+
+.btPause {
+    -fx-font-size: 20pt;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+    -fx-cursor: hand;
+    -fx-background-color: #ff3333;
+}
+
+#tfDescr {
+}

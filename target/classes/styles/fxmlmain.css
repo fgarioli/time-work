@@ -1,0 +1,30 @@
+.table-row-cell {
+    -fx-cell-size: 30px;
+}
+
+/*.table-cell {
+    -fx-alignment: CENTER-LEFT;
+}*/
+
+.btRemove {
+    -fx-cursor: hand;
+    -fx-background-color:  #ff3333;
+}
+
+.btEdit {
+    -fx-cursor: hand;
+    -fx-background-color:  #ff8f2b;
+}
+
+.btAdd {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 16pt;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-background-color:  #009900;
+    -fx-text-fill: #fff;
+}
+
+.btAdd:hover {    
+    -fx-background-color:  #3a7515;
+}
