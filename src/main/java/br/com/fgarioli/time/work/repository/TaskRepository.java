@@ -7,11 +7,13 @@ package br.com.fgarioli.time.work.repository;
 
 import br.com.fgarioli.time.work.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author fernando
  */
+@Repository
 public interface TaskRepository  extends JpaRepository<Task, Integer> {
     
 }
