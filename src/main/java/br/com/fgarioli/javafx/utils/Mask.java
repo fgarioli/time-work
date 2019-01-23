@@ -106,10 +106,4 @@ public class Mask {
         return "";
     }
     
-    public static boolean isNumero(String texto) {
-        Pattern pat = Pattern.compile("[0-9]+");
-        Matcher mat = pat.matcher(texto);
-        return mat.matches();
-    }
-    
 }

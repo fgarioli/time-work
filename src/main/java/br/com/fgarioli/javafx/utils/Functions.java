@@ -6,6 +6,8 @@
 package br.com.fgarioli.javafx.utils;
 
 import java.time.Duration;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -27,6 +29,12 @@ public class Functions {
         int seconds = Integer.parseInt(dur[3]);
         
         return Duration.ofDays(days).plusHours(hours).plusMinutes(minutes).plusSeconds(seconds);
+    }
+    
+    public static boolean isNumero(String texto) {
+        Pattern pat = Pattern.compile("[0-9]+");
+        Matcher mat = pat.matcher(texto);
+        return mat.matches();
     }
 
 }
